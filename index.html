@@ -42,15 +42,30 @@
 
         }
     </style>
+    <script>
+        function askForName() {
+            var userName = prompt("What is your name?");
+            console.log("userName");
+            var greeterBox = document.getElementById("greeter");
+            greeterBox.innerHTML = "Hello, " + userName;
+        }
+    </script>
 </head>
 
-<body>
-    <!-- This is a html comment -->
-    <h1>Free Coffee With a Game</h1>
+<body onload="askForName()">
+    <!-- This is a HTML comment -->
+    <h1>Бесплатный кофе здесь</h1>
+    <h2 id="greeter">Hello, guest!</h2>
     <p class="blogtext">Free coffee under this text</p>
-    <a id="gamelink" href="Amung us 2/www/index.html">CLICK HERE FOR FREE COFFEE!</a>
+    <a id="gamelink" href="Amung us 2/www/index.html" target="_blank">CLICK HERE FOR FREE COFFEE!</a>
     <p>If you click this you will get free Coffee.<br>
         Many think that this is a scam but please.</p>
+        <br>
+        <p>beans we have</p>
+    <ul>
+        <li>Black Beans</li>
+        <li>idk</li>
+    </ul>
 </body>
 
 </html>
