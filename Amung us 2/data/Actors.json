@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Actor1_8","characterIndex":7,"characterName":"Actor1","classId":2,"equips":[2,1,2,3,0],"faceIndex":7,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Therese","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"Actor3_8","characterIndex":7,"characterName":"Actor3","classId":3,"equips":[3,0,2,3,4],"faceIndex":7,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Marsha","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"Actor2_7","characterIndex":6,"characterName":"Actor2","classId":4,"equips":[4,0,2,3,4],"faceIndex":6,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"Robert1","characterIndex":0,"characterName":"Robert3","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Robert4","traits":[],"initialLevel":9,"maxLevel":99,"name":"Robert","nickname":"","note":"","profile":"Thinks that he is a good programer and likes to have fun. thinks that Mr.Smith is soooooooo cool."},
+{"id":2,"battlerName":"Denis11","characterIndex":0,"characterName":"Denis22","classId":5,"equips":[1,0,2,3,0],"faceIndex":0,"faceName":"Denis33","traits":[],"initialLevel":6,"maxLevel":99,"name":"Denis","nickname":"","note":"","profile":"AN EGOIST AND LOVES TO PROVE MARK WRONG AT ALL COST. he thinks that shields are for babys."},
+{"id":3,"battlerName":"Mike","characterIndex":0,"characterName":"Mike1","classId":3,"equips":[3,0,2,3,0],"faceIndex":0,"faceName":"Mike2","traits":[],"initialLevel":9,"maxLevel":99,"name":"Mike","nickname":"","note":"","profile":"Plays War Thunder and keeps his daily play time to a 2 hour basis."},
+{"id":4,"battlerName":"Tim","characterIndex":0,"characterName":"TIm1","classId":2,"equips":[2,1,2,3,0],"faceIndex":0,"faceName":"Tim2","traits":[],"initialLevel":8,"maxLevel":99,"name":"Tim","nickname":"","note":"","profile":"He is super smart and he knows everything."}
 ]
