@@ -7,16 +7,22 @@
     <title>What We Did</title>
     <style>
         body{
-            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXjJhGjs7GjhH7hNPSfPSpXfRV1Kyo7gcIA:https://images.wallpapersden.com/image/download/nature-sunset-near-mountain-river-artwork_a2hqaGmUmZqaraWkpJRobWllrWdma2U.jpg&usqp=CAU);
+            background-image: url(https://i.pinimg.com/736x/99/a5/fc/99a5fcd40038a88b358be5f2cffa442a.jpg);
             background-size: cover;
+            color: rgb(240, 255, 255);
         }
-        #firstBox{
-            background-color: rgb(222, 184, 135);
+        a{
+            color: rgb(214, 40, 75);
+            font-weight: 1000;
+        }
+        .header{
+            background-color: rgba(100, 100, 100, 0.1);
             margin-top: 20px;
             text-align: center;
             width: 1930;
             font: italic;
-            box-shadow: 8px 8px 8px rgb(204, 196, 196);
+            box-shadow: 8px 8px 8px rgb(0, 0, 0);
+            font-size: larger;
         }
         #mainBox{
             height: 870px;
@@ -25,49 +31,58 @@
             justify-content: center;
         }
         #textBox{
-            background-color: rgba(100,100,100,0.3);
+            background-color: rgba(100,100,100,0.2);
             margin-left: 90px;
             margin-right: 90px;
-            height: 400;
+            height: 600px;
             width: auto;
+            border: 1mm dotted rgb(245, 245, 245);
+            text-align: center;
+            box-shadow: 8px 8px 8px rgb(255, 0, 0);
+            font-size: xx-large;
         }
         #otherPages{
-            background-color: rgb(206, 120, 22);
+            background-color: rgba(204, 12, 12,0.2);
             margin-left: 90px;
             margin-right: 90px;
             margin-top: 10px;
-            width: 50px;
+            width: auto;
             height: auto;
             justify-content: space-evenly;
+            border: 1mm dotted rgb(245, 245, 245);
+            box-shadow: 8px 8px 8px rgb(204, 196, 196);
+            font-size: large;
         }
         @media screen and (max-width: 800px) {
-                #textBox{
-                background-color: rgb(206, 120, 22);
+            #textBox{
+                background-color: rgba(100,100,100,0.2);
                 margin: 10px 5px auto 5px;
+                border: 1mm dotted rgb(245, 245, 245);
+                box-shadow: 8px 8px 8px rgb(255, 0, 0);
+                font-size: large;
             }
             #otherPages{
-                background-color: rgb(206, 120, 22);
+                background-color: rgba(204, 12, 12, 0.3);
                 margin: 10px 5px auto 5px;
+                width: auto;
+                box-shadow: 8px 8px 8px rgb(204, 196, 196);
             }
         }
     </style>
 </head>
 <body>
-    <div id="firstBox">
-        <strong>The Work That I Did During Programing Class</strong>
+    <div class="header">
+        <strong>My Portfolio For Programing Class</strong>
     </div>
     <div id="mainBox">
         <div id="textBox">
-            Everything here will talk about what I have learnt in programing class.
+            In this webpage I will tell you and show what I have learned. This is our final project for programing class! And although this was fun it was kinda tiring to do.
+            <div id="otherPages">
+            <Strong>What we did</Strong><br>
+            <a href="SubPage1.html">HTML</a><br>
+            <a href="SubPage2.html">RPG Game</a><br>
         </div>
-        <div id="otherPages">
-            <Strong>Pages</Strong><br>
-            <a href="D:\9thGradeWork\SubPage1.html">Page 2</a><br>
-            <a href="D:\9thGradeWork\SubPage2.html">Page 3</a><br>
-            <a href="D:\9thGradeWork\SubPage3.html">Page 4</a><br>
-            <a href="D:\9thGradeWork\SubPage4.html">Page 5</a><br>
-            <a href="D:\9thGradeWork\SubPage5.html">Page 6</a><br>
-        </div>
+        
     </div>
 </body>
 </html>
